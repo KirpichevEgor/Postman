@@ -1,0 +1,172 @@
+{
+	"id": "cee71cb3-3dde-4bfc-b39b-895122a9432c",
+	"name": "Group_30",
+	"timestamp": "2022-06-16T21:25:44.291Z",
+	"collection_id": "18868518-235e364b-6d4c-4dc3-9ad6-e6654d92a5af",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "08519ecc-8429-4840-9402-d7bbc6e8a0fb",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Egor&age=29",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				173
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40db9b91-2b75-4a24-9dce-499649c4ec0f",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3?name=Egor&age=29&salary=2000",
+			"time": 179,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				179
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bebd73ad-6930-488a-989c-55c6eceff917",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Egor&age=29&weight=80",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				182
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c7440fa1-50ff-47e7-9515-409009bc249a",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Egor&age=29&salary=2000",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				183
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c94075c8-9d15-4a9a-9fc5-f877ac8e1c30",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Egor&age=29&salary=2000",
+			"time": 179,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				179
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0d7c3034-89ea-4dff-a6a8-9d45b57aef43",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Egor&age=29&salary=3000",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				187
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9180220e-674b-4dc0-a115-456a8f9e989c",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				187
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1270,
+	"collection": {
+		"requests": [
+			{
+				"id": "08519ecc-8429-4840-9402-d7bbc6e8a0fb",
+				"method": "GET"
+			},
+			{
+				"id": "40db9b91-2b75-4a24-9dce-499649c4ec0f",
+				"method": "POST"
+			},
+			{
+				"id": "bebd73ad-6930-488a-989c-55c6eceff917",
+				"method": "GET"
+			},
+			{
+				"id": "c7440fa1-50ff-47e7-9515-409009bc249a",
+				"method": "GET"
+			},
+			{
+				"id": "c94075c8-9d15-4a9a-9fc5-f877ac8e1c30",
+				"method": "GET"
+			},
+			{
+				"id": "0d7c3034-89ea-4dff-a6a8-9d45b57aef43",
+				"method": "GET"
+			},
+			{
+				"id": "9180220e-674b-4dc0-a115-456a8f9e989c",
+				"method": "POST"
+			}
+		]
+	}
+}
